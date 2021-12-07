@@ -9,7 +9,7 @@ function enter() {
         string = string + answer;
         console.log(string);
 
-        if (i % 3 == 0) {
+        if (i % 3 === 0) {
             let question = confirm('Do you want to continue?');
             if (!question) break;
         }
